@@ -8,6 +8,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 /* Header aid olan stile */
@@ -105,7 +106,7 @@ header{
                 font-family: 'Segoe Script','Savoye LET';
                 font-weight: 400;
                 color: #777777;
-                font-size: 44px;
+                font-size: 38px;
             }
             h3,h4,h5{
                 font-family: "Poppins", sans-serif;
@@ -116,11 +117,11 @@ header{
             }
             h3{
                 text-transform: uppercase !important;
-                font-size: 44px;
+                font-size: 38px;
                 letter-spacing: 0.185em;
             }
             h4{
-                font-size: 100px;
+                font-size: 80px;
             }
             h5{
                 margin-top: 25px;
@@ -261,7 +262,7 @@ header{
 }
         .owl-prev{
             position:absolute;
-            top:40%;
+            top:32%;
             left:0%;
             margin: 0;
             transform:translate(0%,-50%);
@@ -269,7 +270,7 @@ header{
 }
         .owl-next{
             position:absolute;
-            top:35%;
+            top:32%;
             right:0%;
             transform:translate(0%,-50%);
            
@@ -446,6 +447,7 @@ header{
 /* Section 4 product cart olan hisse */
 
 #product_card{
+    margin-bottom: 20px;
 
     h2{
         text-transform: uppercase;
@@ -507,7 +509,7 @@ header{
             
             .star{
                 margin-left: 10px;
-                color: #777;
+                color: goldenrod;
                 font-size: 14px;
             }
             span{
@@ -518,6 +520,7 @@ header{
             span:nth-child(5){
                 font-size: 15px;
                 text-decoration:line-through;
+                color: #777;
             }
             span:nth-child(6){
                 font-size: 20px;
@@ -525,4 +528,234 @@ header{
 
             
     }
+}
+/* Footer olan hisse */
+#footer{
+    width: 90%;
+    margin: 0 auto;
+
+    hr{
+        margin: 0 auto;
+        color: #777;
+    }
+
+    /* Footer 1 olan hisse */
+
+    .feature-boxes-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+
+        .feature-box{
+            width: 270px;
+            text-align: center;
+            justify-content: center;
+
+            i{
+                font-size: 30px;
+                margin: 25px;
+                color: #777;
+            }
+            h3{
+                text-transform: uppercase;
+                color: #000;
+                font-family: Poppins, sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+            }
+            h5{
+                color: #777;
+                font-size: 14px;
+                font-weight: 500;
+                font-family: Poppins, sans-serif;
+            }
+            p{
+                margin-top: 25px;
+                color: #777;
+                font-size: 15px;
+                line-height: 25px;
+                
+            }
+            
+        }
+
+
+
+    }
+
+    /* Footer 2 olan hisse */
+
+    .subscribe{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin-top: 50px;
+        margin-bottom: 40px;
+
+        /* Footer 2.1 olan hisse */
+        .subscribe_text{
+            h5{
+                text-transform: uppercase;
+                color: #000;
+                font-family: Poppins, sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20x;
+            }
+            p{
+                font-family: "Open Sans", sans-serif;
+                color: #777;
+                font-size: 13px;
+                
+            }
+
+        }
+
+        /* Footer 2.2 olan hisse */
+
+        .footer-submit{
+            margin-right: 330px;
+            display: flex;
+            
+            
+            input{
+                width: 250px;
+                height: 45px;
+                padding: 11px 11px 11px;
+                border: none;
+                color: #777;
+                background-color: #f4f4f4;
+                font-family: "Open Sans", sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+            }
+            button{
+                height: 45px;
+                background-color: #222529;
+                color: #fff;
+                text-transform: uppercase;
+                padding: 10px 10px 10px;
+                font-size: 12px;
+                font-weight: 700;
+                font-family: Poppins, sans-serif;
+                border: none;
+                
+            }
+            
+        }
+
+        /* Footer 2.3 olan hisse */
+
+        .social-icons{
+            i{
+                padding-left: 20px;
+             font-size: 20px;
+             color: #777;
+            }
+        }
+
+        
+
+       
+    }
+
+    /* Footer 3 olan hisse */
+
+    .footer-middle{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+        margin-bottom: 30px;
+        
+        text-align: left;
+
+        .widget{
+            display: block;
+            
+            h4{
+                text-transform: uppercase;
+                color: #000;
+                font-family: Poppins, sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20x;
+                margin-bottom: 15px;
+
+            }
+
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                width: 470px;
+                gap: 15px;
+                
+                .contact-widget{
+                    flex: 0 0 40%;
+                    max-width: 40%;
+                    padding-bottom: 25px;
+                    h4{
+                        font-weight: 400;
+                        font-size: 14px;
+                        font-family: "Open Sans", sans-serif;
+                        letter-spacing: 0.005em;
+                        color: #000;
+                        margin-bottom: 0;
+                    }
+                    a{
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: #777;
+                    }
+                }
+                
+                
+            }
+        }
+
+        .links{
+            display: flex;
+            gap: 15px;
+
+            a{
+                font-weight: 600;
+                font-size: 13px;
+                font-family: "Open Sans", sans-serif;
+                letter-spacing: 0.005em;
+                color: #777;
+                line-height: 25px;
+            }
+        }
+    }
+
+    /* Footer 4 sonuncu olan hisse */
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        span{
+                font-weight: 600;
+                font-size: 13px;
+                font-family: "Open Sans", sans-serif;
+                letter-spacing: 0.005em;
+                color: #777;
+                line-height: 25px;
+        }
+        .footer-right{
+            
+            i{
+                font-size: 40px;
+                color: #000;
+                padding: 3px;
+            }
+            
+        }
+    }
+
+    
 }
